@@ -1,1 +1,62 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cabecera img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: inset -4px -6px #fff;
+}
+
+.cabecera h1 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.cuerpo {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cuerpo h2 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.cuerpo p {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  word-wrap: break-word;
+  max-width: fit-content;
+  line-height: normal;
+}
